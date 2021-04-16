@@ -1,0 +1,64 @@
+body {
+  width: 100%;
+  height: 100%;
+  /* background-image: url('./img/fon1.jpg'); */
+  /* background-image: url('./img/bt.jpg'); */
+  /* background-repeat: no-repeat; */
+  background-color: rgb(228, 203, 231);
+}
+.title {
+  animation-duration: 4s;
+  animation-name: slidein;
+  /* animation-iteration-count: infinite; */
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+h1 {
+  transition: 2s;
+}
+h1:hover {
+  transform: scale(1.2);
+  transition: 2s;
+}
+.title_name {
+  text-align: center;
+  font-size: 70px;
+  color: rgb(223, 69, 176);
+  overflow: hidden;
+}
+.happy {
+  text-align: center;
+  font-size: 80px;
+  color: blueviolet;
+  overflow: hidden;
+}
+.wish {
+  text-align: center;
+  font-size: 70px;
+  color: rgb(241, 12, 12);
+  overflow: hidden;
+}
+img {
+  margin: 0;
+  width: 50%;
+  height: 400px;
+}
+.div {
+  display: flex;
+}
+.photos {
+  display: flex;
+}
+.photo {
+  width: 250px;
+  height: 200px;
+}
